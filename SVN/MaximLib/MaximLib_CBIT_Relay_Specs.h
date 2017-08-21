@@ -1,0 +1,74 @@
+//, Maxim Inventory Number, Open Time (uS), Close Time (uS), Comment, 
+//This file is best edited with Excel if you import as CSV, , , , , 
+//Needed to use the .h extension on this file due to an issue with MST, , , , , 
+//Note that setRelaySpecifications.insert may show as an error in this file,  but it will work since it is defined in the, , , , 
+//  InitializeRelaySpecifications() function where the code is included., , , , , 
+// Frequently if typical and max were given then max was more than double typical, so if only typical is give I double the value., , , , , 
+setRelaySpecifications.insert( ", DEFAULT, 5000, 5000, Default value for when no relay information has been provided. ,  ");
+setRelaySpecifications.insert( ", 10-MAX312CPE-P, 1, 1, Spec had min/max. -- BRS,  ");
+setRelaySpecifications.insert( ", 10-MAX312CSE-S, 1, 1, Spec had min/max. -- BRS,  ");
+setRelaySpecifications.insert( ", 10-MAX312ESE-S, 1, 1, Spec had min/max. -- BRS,  ");
+setRelaySpecifications.insert( ", 10-MAX312FEPE-S, 1, 1, Spec had min/max. -- BRS,  ");
+setRelaySpecifications.insert( ", 10-MAX312FESE-S, 1, 1, Spec had min/max. -- BRS,  ");
+setRelaySpecifications.insert( ", 10-MAX312LEUE-U, 1, 1, Spec had min/max. -- BRS,  ");
+setRelaySpecifications.insert( ", 10-MAX4601CAE-A, 1, 1, Spec had min/max. -- BRS,  ");
+setRelaySpecifications.insert( ", 10-MAX4601EAE-A, 1, 1, Spec had min/max. -- BRS,  ");
+setRelaySpecifications.insert( ", 10-MAX4607ESE-S, 1, 1, Spec had min/max. -- BRS,  ");
+setRelaySpecifications.insert( ", 10-MAX4647EUT-U, 1, 1, Spec had min/max. -- BRS,  ");
+setRelaySpecifications.insert( ", 10-MAX4648EUT-U, 1, 1, Spec had min/max. -- BRS,  ");
+setRelaySpecifications.insert( ", 10-MAX4661CAE-A, 1, 1, Spec had min/max. -- BRS,  ");
+setRelaySpecifications.insert( ", 10-MAX4661EAE-A, 1, 1, Spec had min/max. -- BRS,  ");
+setRelaySpecifications.insert( ", 10-MAX4661EWE-W, 1, 1, Spec had min/max. -- BRS,  ");
+setRelaySpecifications.insert( ", 10-MAX4717EUB-U, 1, 1, Spec had min/max. -- BRS,  ");
+setRelaySpecifications.insert( ", 70-221105301-00, 4000, 2000, Spec gives typical so doubled for max. -- BRS,  ");
+setRelaySpecifications.insert( ", 70-221112301-00, 4000, 2000, Spec gives typical so doubled for max. -- BRS,  ");
+setRelaySpecifications.insert( ", 70-234205000-00, 4000, 3000, Spec gives typical so doubled for max. -- BRS,  ");
+setRelaySpecifications.insert( ", 70-234212000-00, 4000, 3000, Spec gives typical so doubled for max. -- BRS,  ");
+setRelaySpecifications.insert( ", 70-90010500-00, 100, 700, Spec gives typical so doubled for max. -- BRS,  ");
+setRelaySpecifications.insert( ", 70-90010501-00, 100, 700, Spec gives typical so doubled for max. -- BRS,  ");
+setRelaySpecifications.insert( ", 70-90010502-00, 100, 700, Spec gives typical so doubled for max. -- BRS,  ");
+setRelaySpecifications.insert( ", 70-90011201-00, 100, 700, Spec gives typical so doubled for max. -- BRS,  ");
+setRelaySpecifications.insert( ", 70-90020500-00, 100, 700, Spec gives typical so doubled for max. -- BRS,  ");
+setRelaySpecifications.insert( ", 70-90020501-00, 100, 700, Spec gives typical so doubled for max. -- BRS,  ");
+setRelaySpecifications.insert( ", 70-90020511-00, 100, 700, Spec gives typical so doubled for max. -- BRS,  ");
+setRelaySpecifications.insert( ", 70-90021200-00, 100, 700, Spec gives typical so doubled for max. -- BRS,  ");
+setRelaySpecifications.insert( ", 70-90110510-00, 100, 700, Spec gives typical so doubled for max. -- BRS,  ");
+setRelaySpecifications.insert( ", 70-90110511-00, 100, 700, Spec gives typical so doubled for max. -- BRS,  ");
+setRelaySpecifications.insert( ", 70-90111210-00, 100, 700, Spec gives typical so doubled for max. -- BRS,  ");
+setRelaySpecifications.insert( ", 70-90111211-00, 100, 700, Spec gives typical so doubled for max. -- BRS,  ");
+setRelaySpecifications.insert( ", 70-94011220-00, 400, 800, Spec gives typical so doubled for max. -- BRS,  ");
+setRelaySpecifications.insert( ", 70-90121211-00, 100, 700, Spec gives typical so doubled for max. -- BRS,  ");
+setRelaySpecifications.insert( ", 70-98020500-00, 100, 500, Spec gives typical so doubled for max. -- BRS,  ");
+setRelaySpecifications.insert( ", 70-98020510-00, 100, 500, Spec gives typical so doubled for max. -- BRS,  ");
+setRelaySpecifications.insert( ", 70-98020520-00, 100, 500, Spec gives typical so doubled for max. -- BRS,  ");
+setRelaySpecifications.insert( ", 70-98140500-00, 100, 500, Spec gives typical so doubled for max. -- BRS,  ");
+setRelaySpecifications.insert( ", 70-98520300-00, 1000, 1000, Spec had min/max. -- BRS,  ");
+setRelaySpecifications.insert( ", 70-98520500-00, 1000, 1000, Spec had min/max. -- BRS,  ");
+setRelaySpecifications.insert( ", 70-98520520-00, 1000, 1000, Spec had min/max. -- BRS,  ");
+setRelaySpecifications.insert( ", 70-AGN200A12-00, 4000, 4000, ,  ");
+setRelaySpecifications.insert( ", 70-AQV201A-00,1000,1000, Max spec per manufacturer. -- BRS,  ");
+setRelaySpecifications.insert( ", 70-IM06DGR-00, 5000, 5000, Assumes parallel diode and waits for bounce time.,  ");
+setRelaySpecifications.insert( ", 70-IM06GR-00, 5000, 5000, Assumes parallel diode and waits for bounce time.,  ");
+setRelaySpecifications.insert( ", 70-IM06JR-00, 5000, 5000, Assumes parallel diode and waits for bounce time.,  ");
+setRelaySpecifications.insert( ", 70-IM06TS-00, 5000, 5000, Assumes parallel diode and waits for bounce time.,  ");
+setRelaySpecifications.insert( ", 70-G3VM21HR-00, 1000, 5000, Spec had min/max. -- BRS,  ");
+setRelaySpecifications.insert( ", 70-G3VM21LR1-00, 500, 500, Spec had min/max. -- BRS,  ");
+setRelaySpecifications.insert( ", 70-G3VM21LR10-00, 200, 200, Spec had min/max. -- BRS,  ");
+setRelaySpecifications.insert( ", 70-G3VM21PR11-00, 1000, 2000, Spec had min/max. -- BRS,  ");
+setRelaySpecifications.insert( ", 70-G3VM51PR-00, 400, 500, Spec had min/max. -- BRS,  ");
+setRelaySpecifications.insert( ", 70-G3VM61GR1-00, 1000, 3000, Spec had min/max. -- BRS,  ");
+setRelaySpecifications.insert( ", 70-G6K2FRFDC5-00, 3000, 3000, Spec had min/max. -- BRS,  ");
+setRelaySpecifications.insert( ", 70-G6K2FRFSDC12-00, 3000, 3000, Spec had min/max. -- BRS,  ");
+setRelaySpecifications.insert( ", 70-G6K2FRFSDC24-00, 3000, 3000, Spec had min/max. -- BRS,  ");
+setRelaySpecifications.insert( ", 70-G6K2FRFSDC3-00, 3000, 3000, Spec had min/max. -- BRS,  ");
+setRelaySpecifications.insert( ", 70-G6K2FRFSDC45-00, 3000, 3000, Spec had min/max. -- BRS,  ");
+setRelaySpecifications.insert( ", 70-G6K2FRFSDC5-00, 3000, 3000, Spec had min/max. -- BRS,  ");
+setRelaySpecifications.insert( ", 70-G6K2FRFTDC45-00, 3000, 3000, Spec had min/max. -- BRS,  ");
+setRelaySpecifications.insert( ", 70-G6K2FRFTDC5-00, 3000, 3000, Spec had min/max. -- BRS,  ");
+setRelaySpecifications.insert( ", 70-G6K2P12-00, 3000, 3000, Spec had min/max. -- BRS,  ");
+setRelaySpecifications.insert( ", 70-G6K2PYDC12-00, 3000, 3000, Spec had min/max. -- BRS,  ");
+setRelaySpecifications.insert( ", 70-V23079A1003B301-00, 5000, 6000, Assumes parallel diode. -- BRS,  ");
+setRelaySpecifications.insert( ", 70-V23079A1011B301-00, 5000, 6000, Assumes parallel diode. -- BRS,  ");
+setRelaySpecifications.insert( ", 70-V23079B1203B301-00, 5000, 6000, Assumes parallel diode. -- BRS,  ");
+setRelaySpecifications.insert( ", 70-V23079E1201B301-00, 5000, 6000, Assumes parallel diode. -- BRS,  ");
+setRelaySpecifications.insert( ", 70-V23079G2003B301-00, 5000, 6000, Assumes parallel diode. -- BRS,  ");

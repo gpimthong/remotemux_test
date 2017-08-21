@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- This file is a load file for the ETS-88 Tester -->
+<!-- This file must be named to match the test project's name (DieType_load.xml) -->
+<ETS_88_LOAD_FILE Version="0.1">
+    <Die_Type>AP89_FT</Die_Type>      <!-- Die_Type must match the project name.  This is typically the base die type without dash types or mask revisions. -->
+    <Program_Type>MSD Single</Program_Type>   <!-- Reserved for future use.  Must be "MSD Single" (Multi-site distributed, single sector base) -->
+    <Num_Sites>4</Num_Sites>                  <!-- Number of sites per sector -->
+    
+    <Maxim_Part_Number>                       <!-- One or more Maxim_Part_Number structures are required -->
+        <!-- Max_Num is the base Maxim part number without package codes  -->
+        <!-- Each Maxim_Part_Number must have exactly one Max_Num field.  -->
+        <Maxim_Num>MAX20446</Maxim_Num>
+        
+        <!-- Extern_Maxim_Num is the exact string of the external part number.  -->
+        <!-- Each Maxim_Part_Number must one or more Extern_Maxim_Num field(s). -->
+        <!-- Extern_Maxim_Num listed with the Maxim_Num are tested with the limit set and Max number combination. -->
+        <Extern_Maxim_Num>MAX20446/V+</Extern_Maxim_Num>
+
+        
+        <!-- List all Limit_Set combinations available in the ETS Datasheet columns which may be used in production for the above Extern_Maxim_Num fields.  -->
+        <Limit_Set>FT_ROOM</Limit_Set>
+        <Limit_Set>QA_ROOM</Limit_Set>
+        <Limit_Set>FT_HOT</Limit_Set>
+        <Limit_Set>QA_HOT</Limit_Set>
+        <Limit_Set>FT_COLD</Limit_Set>
+        <Limit_Set>QA_COLD</Limit_Set>
+        <Limit_Set>HW_CHECKER</Limit_Set>     <!-- A HW_CHECKER Limit_Set is required for the program to load.  -->
+        
+        <!--  List all handlers allowed to run this product.   -->
+        <Handler>
+            <Package>QFN 4X4</Package>        <!--  Must match the "Handler" field on the Setup Sheet  -->
+            <Driver>AETRIUM 55V8</Driver>     <!--  Must match the "Driver" field on the ETS Handler Configuration form  -->
+            <Num_Sites>4</Num_Sites>          <!--  Number of sites available on the handler  -->
+            <Dist_Count>1</Dist_Count>        <!--  Number of sectors required  -->
+        </Handler>
+        <Handler>
+            <Package>QFN 4X4</Package>        <!--  Must match the "Handler" field on the Setup Sheet  -->
+            <Driver>AETRIUM 55V16</Driver>    <!--  Must match the "Driver" field on the ETS Handler Configuration form  -->
+            <Num_Sites>8</Num_Sites>          <!--  Number of sites available on the handler  -->
+            <Dist_Count>2</Dist_Count>        <!--  Number of sectors required  -->
+        </Handler>
+        <Handler>
+            <!--  Case for using an octal handler as a quad site (other half of handler will not be used)  -->
+            <Package>QFN 4X4</Package>        <!--  Must match the "Handler" field on the Setup Sheet  -->
+            <Driver>AETRIUM 55V16</Driver>    <!--  Must match the "Driver" field on the ETS Handler Configuration form  -->
+            <Num_Sites>4</Num_Sites>          <!--  Number of sites available on the handler  -->
+            <Dist_Count>1</Dist_Count>        <!--  Number of sectors required  -->
+        </Handler>
+		<Handler>
+            <!--  Case for using an octal handler as a quad site (other half of handler will not be used)  -->
+            <Package>QFN 4X4</Package>        <!--  Must match the "Handler" field on the Setup Sheet  -->
+            <Driver>MULTITEST 9928</Driver>    <!--  Must match the "Driver" field on the ETS Handler Configuration form  -->
+            <Num_Sites>4</Num_Sites>          <!--  Number of sites available on the handler  -->
+            <Dist_Count>1</Dist_Count>        <!--  Number of sectors required  -->
+        </Handler>
+		<Handler>
+            <!--  Case for using an octal handler as a quad site (other half of handler will not be used)  -->
+            <Package>QFN 4X4</Package>        <!--  Must match the "Handler" field on the Setup Sheet  -->
+            <Driver>MULTITEST 9928</Driver>    <!--  Must match the "Driver" field on the ETS Handler Configuration form  -->
+            <Num_Sites>8</Num_Sites>          <!--  Number of sites available on the handler  -->
+            <Dist_Count>2</Dist_Count>        <!--  Number of sectors required  -->
+        </Handler>
+ 		<Handler>
+            <Package>QFN 4X4</Package>        <!--  Must match the "Handler" field on the Setup Sheet  -->
+            <Driver>DELTAMATRIX</Driver>     <!--  Must match the "Driver" field on the ETS Handler Configuration form  -->
+            <Num_Sites>4</Num_Sites>          <!--  Number of sites available on the handler  -->
+            <Dist_Count>1</Dist_Count>        <!--  Number of sectors required  -->
+        </Handler>
+        <Handler>
+            <Package>QFN 4X4</Package>        <!--  Must match the "Handler" field on the Setup Sheet  -->
+            <Driver>DELTAMATRIX</Driver>    <!--  Must match the "Driver" field on the ETS Handler Configuration form  -->
+            <Num_Sites>8</Num_Sites>          <!--  Number of sites available on the handler  -->
+            <Dist_Count>2</Dist_Count>        <!--  Number of sectors required  -->
+        </Handler>
+        <Handler>
+            <Package>QFN 4X4</Package>        <!--  Must match the "Handler" field on the Setup Sheet  -->
+            <Driver>HONTECH</Driver>    <!--  Must match the "Driver" field on the ETS Handler Configuration form  -->
+            <Num_Sites>4</Num_Sites>          <!--  Number of sites available on the handler  -->
+            <Dist_Count>1</Dist_Count>        <!--  Number of sectors required  -->
+        </Handler>
+        <Handler>
+            <Package>QFN 4X4</Package>        <!--  Must match the "Handler" field on the Setup Sheet  -->
+            <Driver>HONTECH</Driver>    <!--  Must match the "Driver" field on the ETS Handler Configuration form  -->
+            <Num_Sites>8</Num_Sites>          <!--  Number of sites available on the handler  -->
+            <Dist_Count>2</Dist_Count>        <!--  Number of sectors required  -->
+        </Handler>
+    </Maxim_Part_Number>
+    
+</ETS_88_LOAD_FILE>

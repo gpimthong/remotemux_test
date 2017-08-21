@@ -1,0 +1,307 @@
+Datalog for Serial#: 22   **** DEVICE PASSED ****
+Site Number        : 0
+Station            : AP89_FT-1, 1A
+Site Re-Test Number: 0
+Software Bin Number: 1
+Hardware Bin Number: 1
+TEST#             RESULT UNITS     LOWER     UPPER ALARM TEST NAME                      
+-------------- --------- ----- --------- --------- ----- ------------------------------ 
+  0.1888888881     9.814     s     0.000                 SOT_Timestamp                  
+  0.10000        -0.5711     V   -1.5000   -0.2000       IN                             
+  0.10010        -0.5417     V   -1.5000   -0.2000       OUT1                           
+  0.10020        -0.5418     V   -1.5000   -0.2000       OUT5                           
+  0.10040        -0.7298     V   -1.5000   -0.2000       RT                             
+  0.10050        -0.5436     V   -1.5000   -0.2000       DIM                            
+  0.10060        -0.5422     V   -1.5000   -0.2000       OUT4                           
+  0.10070        -0.6159     V   -1.5000   -0.2000       BSTMON                         
+  0.10080        -0.6551     V   -1.5000   -0.2000       NDRV                           
+  0.10090        -0.5427     V   -1.5000   -0.2000       OUT3                           
+  0.10100        -0.5547     V   -1.5000   -0.2000       FLT                            
+  0.10110        -0.6642     V   -1.5000   -0.2000       SDA_PSEN                       
+  0.10120        -0.7317     V   -1.5000   -0.2000       IREF                           
+  0.10130        -0.5430     V   -1.5000   -0.2000       OUT6                           
+  0.10150        -0.5435     V   -1.5000   -0.2000       OUT2                           
+  0.10160        -0.7240     V   -1.5000   -0.2000       COMP                           
+  0.10170        -0.6176     V   -1.5000   -0.2000       EN                             
+  0.10180        -0.6119     V   -1.5000   -0.2000       PGATE                          
+  0.10190        -0.5443     V   -1.5000   -0.2000       SCL_IRANGE                     
+  0.10200        -0.0010     V                           LEDGND                         
+  0.10210        -0.5479     V   -1.5000   -0.2000       FSEN_ISET                      
+  0.10220        -0.7303     V   -1.5000   -0.2000       CS                             
+  0.10230        -0.7455     V   -1.5000   -0.2000       PGND                           
+  0.10240        -0.3708     V   -1.5000   -0.2000       VCC                            
+  0.10250         0.4978     V    0.2000    1.5000       VCC_IN                         
+  0.10270         0.6480     V    0.2000    1.5000       RT_VCC                         
+  0.10280         0.6430     V    0.2000    1.5000       IREF_VCC                       
+  0.10290         1.5681     V    0.2000    1.7000       FSEN_VCC                       
+  0.10300         0.6371     V    0.2000    1.5000       COMP_VCC                       
+  0.10310         0.6363     V    0.2000    1.5000       CS_VCC                         
+  0.10320         0.4972     V    0.2000    1.5000       NDRV_VCC                       
+  0.10330         0.6162     V    0.2000    1.5000       PGND_GND                       
+  0.10340         0.0016     V                           LEDGND_GND                     
+  0.10350         0.0011     V   -0.2000    0.2000       EP                             
+  0.12000         0.4342    uA              1.5000       I_Standby_Check                
+  0.12010         4.9883     V    4.5000    5.5000       VCC_Check                      
+  0.13000            1.0  CODE      -0.5       1.5       OTP_Lockbit_Pre                
+  0.13010            1.0  CODE      -0.5       1.5       SP_Lockbit_Pre                 
+  0.14000         1.2349     V                           BG_Pre                         
+  0.14010            0.0  CODE      -1.0     256.0       BG_Code_Pre                    
+  0.14020         1.2107     V    1.2091    1.2109       BG_Trim                        
+  0.14030           46.0  CODE      -1.0     256.0       BG_Trim_Code                   
+  0.14040            2.0  UNIT       0.0       3.0       BG_Trim_Attempt                
+  0.14200         1.2408     V                           REF_Pre                        
+  0.14210            0.0  CODE      -1.0     256.0       REF_Code_Pre                   
+  0.14220         1.2509     V    1.2485    1.2515       REF_Trim                       
+  0.14230            4.0  CODE      -1.0     256.0       REF_Trim_Code                  
+  0.14240            2.0  UNIT       0.0       3.0       REF_Trim_Attempt               
+  0.14600        11.1728    uA                           IBIAS_Pre                      
+  0.14610            0.0  CODE      -1.0     256.0       IBIAS_Code_Pre                 
+  0.14620         9.9737    uA    9.9250   10.0750       IBIAS_Trim                     
+  0.14630           57.0  CODE      -1.0     256.0       IBIAS_Trim_Code                
+  0.14640            2.0  UNIT       0.0       3.0       IBIAS_Trim_Attempt             
+  0.14800        53.6898    uA                           SlopeComp_Pre                  
+  0.14810            0.0  CODE      -1.0     256.0       SlopeComp_Code_Pre             
+  0.14820        49.2211    uA   48.0000   52.0000       SlopeComp_Trim                 
+  0.14830           29.0  CODE      -1.0     256.0       SlopeComp_Trim_Code            
+  0.14840            2.0  UNIT       0.0       3.0       SlopeComp_Trim_Attempt         
+  0.15000       389.6350   KHz                           OSC_Pre                        
+  0.15010            0.0  CODE      -1.0     256.0       OSC_Code_Pre                   
+  0.15020       398.1360   KHz  396.0000  404.0000       OSC_Trim                       
+  0.15030            1.0  CODE      -1.0     256.0       OSC_Trim_Code                  
+  0.15040            2.0  UNIT       0.0       3.0       OSC_Trim_Attempt               
+  0.15200        21.9384   MHz                           OSC20M_Pre                     
+  0.15210            0.0  CODE      -1.0     256.0       OSC20M_Code_Pre                
+  0.15220        19.8733   MHz   19.7500   20.2500       OSC20M_Trim                    
+  0.15230           57.0  CODE      -1.0     256.0       OSC20M_Trim_Code               
+  0.15240            2.0  UNIT                 3.0       OSC20M_Trim_Attempt            
+  0.15400            0.0  CODE      -0.5       0.5       DIM_Freq_Bit                   
+  0.16000       118.3961    mA  115.0000  125.0000       OUT1_Gain_Pre                  
+  0.16010       118.3865    mA  115.0000  125.0000       OUT2_Gain_Pre                  
+  0.16020       120.0993    mA  115.0000  125.0000       OUT3_Gain_Pre                  
+  0.16030       120.0797    mA  115.0000  125.0000       OUT4_Gain_Pre                  
+  0.16040       119.9225    mA  115.0000  125.0000       OUT5_Gain_Pre                  
+  0.16050       118.7619    mA  115.0000  125.0000       OUT6_Gain_Pre                  
+  0.16060       119.2743    mA  115.0000  125.0000       OUT_Gain_PreAvg                
+  0.16070            0.0  CODE      -1.0     256.0       OUT_Gain_Code_Pre              
+  0.16080       118.3961    mA  115.0000  125.0000       OUT1_Gain_Trim                 
+  0.16090       118.3865    mA  115.0000  125.0000       OUT2_Gain_Trim                 
+  0.16100       120.0993    mA  115.0000  125.0000       OUT3_Gain_Trim                 
+  0.16110       120.0797    mA  115.0000  125.0000       OUT4_Gain_Trim                 
+  0.16120       119.9225    mA  115.0000  125.0000       OUT5_Gain_Trim                 
+  0.16130       118.7619    mA  115.0000  125.0000       OUT6_Gain_Trim                 
+  0.16140       119.2743    mA  119.0000  121.0000       OUT_Gain_TrimAvg               
+  0.16150            0.0  CODE      -1.0     256.0       OUT_Gain_Trim_Code             
+  0.16160            1.0  UNIT       0.0       3.0       OUT_Gain_Trim_Attempt          
+  0.17000        49.2745    mA                           OUT1_Pre                       
+  0.17010            0.0  CODE      -1.0     256.0       OUT1_Code_Pre                  
+  0.17020        50.1856    mA   49.7500   50.2500       OUT1_Trim                      
+  0.17030            2.0  CODE      -1.0     256.0       OUT1_Trim_Code                 
+  0.17040            2.0  UNIT       0.0       3.0       OUT1_Trim_Attempt              
+  0.17200        49.3589    mA                           OUT2_Pre                       
+  0.17210            0.0  CODE      -1.0     256.0       OUT2_Code_Pre                  
+  0.17220        49.8391    mA   49.7500   50.2500       OUT2_Trim                      
+  0.17230            1.0  CODE      -1.0     256.0       OUT2_Trim_Code                 
+  0.17240            2.0  UNIT       0.0       3.0       OUT2_Trim_Attempt              
+  0.17400        50.3371    mA                           OUT3_Pre                       
+  0.17410            0.0  CODE      -1.0     256.0       OUT3_Code_Pre                  
+  0.17420        49.8168    mA   49.7500   50.2500       OUT3_Trim                      
+  0.17430            6.0  CODE      -1.0     256.0       OUT3_Trim_Code                 
+  0.17440            2.0  UNIT       0.0       3.0       OUT3_Trim_Attempt              
+  0.17600        50.3252    mA                           OUT4_Pre                       
+  0.17610            0.0  CODE      -1.0     256.0       OUT4_Code_Pre                  
+  0.17620        49.8304    mA   49.7500   50.2500       OUT4_Trim                      
+  0.17630            6.0  CODE      -1.0     256.0       OUT4_Trim_Code                 
+  0.17640            2.0  UNIT       0.0       3.0       OUT4_Trim_Attempt              
+  0.17800        50.1944    mA                           OUT5_Pre                       
+  0.17810            0.0  CODE      -1.0     256.0       OUT5_Code_Pre                  
+  0.17820        50.1944    mA   49.7500   50.2500       OUT5_Trim                      
+  0.17830            0.0  CODE      -1.0     256.0       OUT5_Trim_Code                 
+  0.17840            1.0  UNIT       0.0       3.0       OUT5_Trim_Attempt              
+  0.18000        49.5932    mA                           OUT6_Pre                       
+  0.18010            0.0  CODE      -1.0     256.0       OUT6_Code_Pre                  
+  0.18020        50.0569    mA   49.7500   50.2500       OUT6_Trim                      
+  0.18030            1.0  CODE      -1.0     256.0       OUT6_Trim_Code                 
+  0.18040            2.0  UNIT       0.0       3.0       OUT6_Trim_Attempt              
+  0.18050            0.0  CODE      -1.0       3.0       BST_OSC_bit                    
+  0.20000            1.0  CODE      -1.0     256.0       EngSample                      
+  0.20010           46.0  CODE      -1.0     256.0       WaferNumber                    
+  0.20020           22.0  CODE    -256.0     256.0       X_Coordinate                   
+  0.20030            0.0  CODE    -256.0     256.0       Y_Coordinate                   
+  0.22000            1.0  CODE    -256.0     256.0       EngSample                      
+  0.22010           31.0  CODE    -256.0     256.0       WaferNumber                    
+  0.22020         -255.0  CODE    -256.0     256.0       X_Coordinate                   
+  0.22030         -255.0  CODE    -256.0     256.0       Y_Coordinate                   
+  0.22040          1e+07  CODE    -256.0     1e+08       SerialNumber                   
+  0.22070           70.0  CODE    -256.0     256.0       DEV_ID                         
+  0.22080           48.0  CODE    -256.0     256.0       REV_ID                         
+  0.23000           46.0  CODE    -256.0     256.0       BG_Reg                         
+  0.23010            1.0  CODE      -1.0       2.0       DIM_Bit                        
+  0.23020            9.0  CODE    -256.0     256.0       REF_Reg                        
+  0.23040           58.0  CODE    -256.0     256.0       IBIAS_Reg                      
+  0.23050           29.0  CODE    -256.0     256.0       SlopeComp_Reg                  
+  0.23060            1.0  CODE    -256.0     256.0       OSC_Reg                        
+  0.23070           57.0  CODE    -256.0     256.0       OSC20M_Reg                     
+  0.23080            0.0  CODE    -256.0     256.0       OUT_Gain_Reg                   
+  0.23090            0.0  CODE    -256.0     256.0       OUT1_Reg                       
+  0.23100            0.0  CODE    -256.0     256.0       OUT2_Reg                       
+  0.23110            5.0  CODE    -256.0     256.0       OUT3_Reg                       
+  0.23120            5.0  CODE    -256.0     256.0       OUT4_Reg                       
+  0.23130            6.0  CODE    -256.0     256.0       OUT5_Reg                       
+  0.23140            0.0  CODE    -256.0     256.0       OUT6_Reg                       
+  0.25000         0.0040    uA   -1.0000    1.0000       I_NDRV_H                       
+  0.25010        -0.0013    uA   -1.0000    1.0000       I_NDRV_L                       
+  0.25020         0.0061    uA   -1.0000    1.0000       I_COMP_H                       
+  0.25030        -0.0010    uA   -1.0000    1.0000       I_COMP_L                       
+  0.25040         1.8902    uA    0.0000    5.0000       I_EN_5V                        
+  0.25050        -0.0002    uA   -1.0000    1.0000       I_SDA_H                        
+  0.25060        -0.0024    uA   -1.0000    1.0000       I_SCL_L                        
+  0.25070        -0.0035    uA   -1.0000    1.0000       I_SDA_L                        
+  0.25080         0.0004    uA   -1.0000    1.0000       I_SCL_H                        
+  0.25090         0.0056    uA   -1.0000    1.0000       I_EN_L                         
+  0.25100        33.3834    nA -500.0000  500.0000       I_BSTMON_L                     
+  0.25110         6.5760    nA -500.0000  500.0000       I_BSTMON_1p3                   
+  0.25120         0.0511    uA   -1.0000    1.0000       I_PGATE_L                      
+  0.25130        -0.0094    uA   -1.0000    1.0000       I_PGATE_12V                    
+  0.25140        -0.0012    uA   -1.0000    1.0000       I_FLT_L                        
+  0.25150         0.0205    uA   -1.0000    1.0000       I_FLT_H                        
+  0.25160        -0.0005    uA   -1.0000    1.0000       I_CS_L                         
+  0.25170        -0.0002    uA   -1.0000    1.0000       I_CS_0p3V                      
+  0.25190         0.0020    uA   -1.0000    1.0000       I_FSEN_L                       
+  0.25200        -0.0002    uA   -1.0000    1.0000       I_FSEN_1V                      
+  0.25210         0.0033    uA   -1.0000    1.0000       I_FSEN_5V                      
+  0.25220        -0.0040    uA   -1.0000    1.0000       I_RT_L                         
+  0.25230         0.0030    uA   -1.0000    1.0000       I_IREF_L                       
+  0.25240        -0.0002    uA   -1.0000    1.0000       I_RT_H                         
+  0.25250         0.0011    uA   -1.0000    1.0000       I_IREF_H                       
+  0.25260         4.8343    uA    3.0000    7.0000       DIM_PU_I                       
+  0.25270         0.0058    uA   -1.0000    1.0000       I_DIM_H                        
+  0.25320        43.3756    uA    0.0000   60.0000       I_EN_H                         
+  0.25330         2.4007    uA    0.0000   10.0000       I_PGATE_H                      
+  0.25340         2.3556    uA    0.0000   10.0000       I_BSTMON_H                     
+  0.25350         8.7842    uA    0.0000   12.0000       Total_OUT_Leakage52V           
+  0.25360         7.0554    uA    0.0000   12.0000       Total_OUT_Leakage              
+  0.25370        -0.8533    uA   -2.0000    2.0000       I_OUT1_L                       
+  0.25380        -0.9829    uA   -2.0000    2.0000       I_OUT2_L                       
+  0.25390        -1.0404    uA   -2.0000    2.0000       I_OUT3_L                       
+  0.25400        -0.8223    uA   -2.0000    2.0000       I_OUT4_L                       
+  0.25410        -0.9570    uA   -2.0000    2.0000       I_OUT5_L                       
+  0.25420        -0.0402    uA   -2.0000    2.0000       I_OUT6_L                       
+  0.25430         6.9478    uA    0.0000   10.0000       I_OUT1_H                       
+  0.25440         7.3473    uA    0.0000   10.0000       I_OUT2_H                       
+  0.25450         7.3734    uA    0.0000   10.0000       I_OUT3_H                       
+  0.25460         7.3475    uA    0.0000   10.0000       I_OUT4_H                       
+  0.25470         7.3707    uA    0.0000   10.0000       I_OUT5_H                       
+  0.25480         7.0591    uA    0.0000   10.0000       I_OUT6_H                       
+  0.26000        -0.3112    uA   -1.0000    1.0000       I_Standby_4p5                  
+  0.26010         0.0622    uA   -1.0000    1.0000       I_Standby_12                   
+  0.26020         0.6139    uA   -1.0000    1.0000       I_Standby_36                   
+  0.26030         0.7792    uA   -1.0000    1.0000       I_Standby_52                   
+  0.26040         9.9942    mA    0.0000   12.0000       IQ_IN_4p5V                     
+  0.26050        10.6766    mA    0.0000   12.0000       IQ_IN_12V                      
+  0.26060        10.7419    mA    0.0000   12.0000       IQ_IN_36V                      
+  0.27000            1.0  CODE       0.5       1.5       OTP_Lockbit_Post               
+  0.27010            1.0  CODE       0.5       1.5       SP_Lockbit_Post                
+  0.27020         1.2105     V    1.2091    1.2109       BG_Post                        
+  0.27030         1.2624     V    1.2485                 REF_Post                       
+  0.27050        10.2371    uA    9.9250                 IBIAS_Post                     
+  0.27060        49.9125    uA   48.0000   52.0000       SlopeComp_Post                 
+  0.27070       398.7775   KHz  396.0000  404.0000       OSC_Post                       
+  0.27080        19.8446   MHz   19.7500   20.2500       OSC20M_Post                    
+  0.27090        49.7381    mA   48.0000   52.0000       OUT1_Post                      
+  0.27100        49.8235    mA   48.0000   52.0000       OUT2_Post                      
+  0.27110        49.7791    mA   48.0000   52.0000       OUT3_Post                      
+  0.27120        49.7927    mA   48.0000   52.0000       OUT4_Post                      
+  0.27130        50.1206    mA   48.0000   52.0000       OUT5_Post                      
+  0.27140        50.0622    mA   48.0000   52.0000       OUT6_Post                      
+  0.28000         4.1440     V    3.8000    4.4500       IN_UVLO_Rising                 
+  0.28010         3.6190     V    3.1000    4.0000       IN_UVLO_Falling                
+  0.28020         0.5250     V                           IN_UVLO_hysteresis             
+  0.28030        -0.0001     V   -1.0000    2.0000       IN_UVLO_Rising-L               
+  0.28040         4.0929     V    3.0000    6.0000       IN_UVLO_Rising-H               
+  0.28050         3.6244     V    3.0000    6.0000       IN_UVLO_Falling-H              
+  0.28060         0.0036     V   -1.0000    2.0000       IN_UVLO_Falling-L              
+  0.29000         1.6090     V    0.8000    2.1000       EN Input Logic Hi              
+  0.29010         1.3050     V    0.8000    2.1000       EN Input Logic Lo              
+  0.29020         0.3040     V   -0.5000    0.5000       EN Input Logic hysteresis      
+  0.29030        -0.0001     V   -1.0000    1.0000       EN Input Rising-L              
+  0.29040         4.9931     V    3.0000    6.0000       EN Input Rising-H              
+  0.29050         4.9925     V    3.0000    6.0000       EN Input Falling-H             
+  0.29060        -0.0032     V   -1.0000    1.0000       EN Input Falling-L             
+  0.29070         1.6880     V    0.8000    2.1000       DIM Input Logic Hi             
+  0.29080         1.3820     V    0.8000    2.1000       DIM Input Logic Lo             
+  0.29090         0.3060     V   -0.5000    0.5000       DIM Input Logic hysteresis     
+  0.29100         0.0000     V   -1.0000    1.0000       DIM Input Rising-L             
+  0.29110         4.9940     V    3.0000    6.0000       DIM Input Rising-H             
+  0.29120         4.9940     V    3.0000    6.0000       DIM Input Falling-H            
+  0.29130        -0.0005     V   -1.0000    1.0000       DIM Input Falling-L            
+  0.29140         2.0160     V    1.8000    2.1000       FSEN Input Logic Hi            
+  0.29150         1.9400     V    1.8000    2.1000       FSEN Input Logic Lo            
+  0.29160         0.0760     V   -0.5000    0.5000       FSEN Input Logic hysteresis    
+  0.29170         0.1338     V   -1.0000    1.0000       FSEN Input Rising-L            
+  0.29180         4.9273     V    3.0000    6.0000       FSEN Input Rising-H            
+  0.29190         4.9277     V    3.0000    6.0000       FSEN Input Falling-H           
+  0.29200         0.1340     V   -1.0000    1.0000       FSEN Input Falling-L           
+  0.29340         0.1341     V   -1.0000    0.4000       FLT_Out_Lo                     
+  0.48000            0.0   P/F      -0.5       0.5       SCAN_ChainInt                  
+  0.48010            0.0   P/F      -0.5       0.5       SCAN_Stuck                     
+  0.30000       471.9378    uA  200.0000  800.0000       COMP Sink Current              
+  0.30010      -468.9922    uA -800.0000 -200.0000       COMP Source Current            
+  0.30020       700.9448    uS  480.0000  920.0000       Transconductance-IN12V-Comp1V  
+  0.30030         0.9748     V    0.9700    0.9800       V1-IN12V-Comp1V                
+  0.30040         0.8749     V    0.8700    0.8800       V2-IN12V-Comp1V                
+  0.30050        35.3783     V   20.0000   40.0000       I1-IN12V-Comp1V                
+  0.30060       -34.6638     V  -50.0000  -20.0000       I2-IN12V-Comp1V                
+  0.30070       700.9244    uS  480.0000  920.0000       Transconductance-IN12V-Comp2V  
+  0.30080         0.9749     V    0.9700    0.9800       V1-IN12V-Comp2V                
+  0.30090         0.8749     V    0.8700    0.8800       V2-IN12V-Comp2V                
+  0.30100        35.5511    uA   20.0000   40.0000       I1-IN12V-Comp2V                
+  0.30110       -34.5852    uA  -50.0000  -20.0000       I2-IN12V-Comp2V                
+  0.30120       702.4240    uS  480.0000  920.0000       Transconductance-IN4p5V-Comp2V 
+  0.30130         0.9749     V    0.9700    0.9800       V1-IN4p5V-Comp2V               
+  0.30140         0.8749     V    0.8700    0.8800       V2-IN4p5V-Comp2V               
+  0.30150        32.7230    uA   20.0000   40.0000       I1-IN4p5V-Comp2V               
+  0.30160       -37.5107    uA  -50.0000  -20.0000       I2-IN4p5V-Comp2V               
+  0.30170       702.0257    uS  480.0000  920.0000       Transconductance-IN4p5V-Comp1V 
+  0.30180         0.9748     V    0.9700    0.9800       V1-IN4p5V-Comp1V               
+  0.30190         0.8749     V    0.8700    0.8800       V2-IN4p5V-Comp1V               
+  0.30200        32.6728    uA   20.0000   40.0000       I1-IN4p5V-Comp1V               
+  0.30210       -37.4510    uA  -50.0000  -20.0000       I2-IN4p5V-Comp1V               
+  0.30530         0.7790     V    0.7000    0.8500       OUT1 Regulation Low Threshold  
+  0.30540         1.0410     V    0.9500    1.1000       OUT1 Regulation High Threshold 
+  0.30550         4.9946     V    3.0000    6.0000       OUT1 Regulation Low L          
+  0.30560        -0.0008     V   -1.0000    1.0000       OUT1 Regulation Low H          
+  0.30570         4.9947     V    3.0000    6.0000       OUT1 Regulation High H         
+  0.30580        -0.0009     V   -1.0000    1.0000       OUT1 Regulation High L         
+  0.30590         0.7960     V    0.7000    0.8500       OUT2 Regulation Low Threshold  
+  0.30600         1.0290     V    0.9500    1.1000       OUT2 Regulation High Threshold 
+  0.30610         4.9946     V    3.0000    6.0000       OUT2 Regulation Low L          
+  0.30620        -0.0007     V   -1.0000    1.0000       OUT2 Regulation Low H          
+  0.30630         4.9944     V    3.0000    6.0000       OUT2 Regulation High H         
+  0.30640        -0.0008     V   -1.0000    1.0000       OUT2 Regulation High L         
+  0.30650         0.7920     V    0.7000    0.8500       OUT3 Regulation Low Threshold  
+  0.30660         1.0380     V    0.9500    1.1000       OUT3 Regulation High Threshold 
+  0.30670         4.9947     V    3.0000    6.0000       OUT3 Regulation Low L          
+  0.30680        -0.0007     V   -1.0000    1.0000       OUT3 Regulation Low H          
+  0.30690         4.9946     V    3.0000    6.0000       OUT3 Regulation High H         
+  0.30700        -0.0007     V   -1.0000    1.0000       OUT3 Regulation High L         
+  0.30710         0.7850     V    0.7000    0.8500       OUT4 Regulation Low Threshold  
+  0.30720         1.0340     V    0.9500    1.1000       OUT4 Regulation High Threshold 
+  0.30730         4.9945     V    3.0000    6.0000       OUT4 Regulation Low L          
+  0.30740        -0.0009     V   -1.0000    1.0000       OUT4 Regulation Low H          
+  0.30750         4.9948     V    3.0000    6.0000       OUT4 Regulation High H         
+  0.30760        -0.0008     V   -1.0000    1.0000       OUT4 Regulation High L         
+  0.30770         0.7910     V    0.7000    0.8500       OUT5 Regulation Low Threshold  
+  0.30780         1.0370     V    0.9500    1.1000       OUT5 Regulation High Threshold 
+  0.30790         4.9947     V    3.0000    6.0000       OUT5 Regulation Low L          
+  0.30800        -0.0007     V   -1.0000    1.0000       OUT5 Regulation Low H          
+  0.30810         4.9944     V    3.0000    6.0000       OUT5 Regulation High H         
+  0.30820        -0.0008     V   -1.0000    1.0000       OUT5 Regulation High L         
+  0.30830         0.7870     V    0.7000    0.8500       OUT6 Regulation Low Threshold  
+  0.30840         1.0390     V    0.9500    1.1000       OUT6 Regulation High Threshold 
+  0.30850         4.9949     V    3.0000    6.0000       OUT6 Regulation Low L          
+  0.30860        -0.0007     V   -1.0000    1.0000       OUT6 Regulation Low H          
+  0.30870         4.9949     V    3.0000    6.0000       OUT6 Regulation High H         
+  0.30880        -0.0008     V   -1.0000    1.0000       OUT6 Regulation High L         
+
+
+

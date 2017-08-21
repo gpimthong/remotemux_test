@@ -1,0 +1,15 @@
+Spreadsheet Format
+Test Program: 
+Lot ID: OUTGAIN Characterization Data
+Operator: 
+Computer: 
+Date: 
+               ,               ,1.01.0,1.01.1,1.01.2,1.01.3,1.01.4,1.01.5,1.01.6,1.01.7,
+               ,               ,    Weight Code 0,    Weight Code 1,    Weight Code 2,    Weight Code 3,   Measure Code 0,   Measure Code 1,   Measure Code 2,   Measure Code 3,
+ 
+               ,               ,           none,           none,           none,           none,           none,           none,           none,           none,
+       Serial#,          Site#,    DatalogUnits,   DatalogUnits,   DatalogUnits,   DatalogUnits,   DatalogUnits,   DatalogUnits,   DatalogUnits,   DatalogUnits,
+          30002,              0,              0,      -0.908182,       0.898537,     -0.0263268,        119.303,         118.22,        120.375,        119.272,
+          30000,              0,              0,      -0.906145,       0.900309,    -0.00261423,        119.022,        117.944,        120.094,        119.019,
+          30000,              0,              0,      -0.921121,       0.891163,     -0.0161957,        119.034,        117.938,        120.095,        119.015,
+          30000,              0,              0,      -0.904429,       0.894158,     -0.0156679,        119.088,         118.01,        120.152,        119.069,

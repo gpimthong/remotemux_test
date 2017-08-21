@@ -1,0 +1,17 @@
+# ETS-88 DoNotRelease.txt file
+# This file is used by eZRev to exclude unwanted files from the release.  
+# This file does not affect anything in SVN or TortoiseSVN.  
+# Please add more to this file as required for your specific product.
+# More info: http://wiki.testeng.maxim-ic.com/wiki/index.php/EZRev_SVN_Submission
+# 
+./Release/*
+./Debug/*
+./*.opensdf
+./*.sdf
+./*.ini
+./*.std*
+./*/*.std*
+./*.xls*
+./.svn
+./*.exe
+./*.log

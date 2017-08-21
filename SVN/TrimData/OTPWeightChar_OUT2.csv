@@ -1,0 +1,15 @@
+Spreadsheet Format
+Test Program: 
+Lot ID: OUT2 Characterization Data
+Operator: 
+Computer: 
+Date: 
+               ,               ,1.01.0,1.01.1,1.01.2,1.01.3,1.01.4,1.01.5,1.01.6,1.01.7,1.01.8,1.01.9,1.01.10,1.01.11,1.01.12,1.01.13,1.01.14,1.01.15,
+               ,               ,    Weight Code 0,    Weight Code 1,    Weight Code 2,    Weight Code 3,    Weight Code 4,    Weight Code 5,    Weight Code 6,    Weight Code 7,   Measure Code 0,   Measure Code 1,   Measure Code 2,   Measure Code 3,   Measure Code 4,   Measure Code 5,   Measure Code 6,   Measure Code 7,
+ 
+               ,               ,           none,           none,           none,           none,           none,           none,           none,           none,           none,           none,           none,           none,           none,           none,           none,           none,
+       Serial#,          Site#,    DatalogUnits,   DatalogUnits,   DatalogUnits,   DatalogUnits,   DatalogUnits,   DatalogUnits,   DatalogUnits,   DatalogUnits,   DatalogUnits,   DatalogUnits,   DatalogUnits,   DatalogUnits,   DatalogUnits,   DatalogUnits,   DatalogUnits,   DatalogUnits,
+          30002,              0,              0,       0.483402,       0.968673,         1.4555,       -1.45021,      -0.995459,      -0.499287,       -0.01059,        49.5168,        50.0002,        50.4855,        50.9723,        48.0666,        48.5213,        49.0175,        49.5062,
+          30000,              0,              0,       0.458484,       0.941263,        1.42311,       -1.46765,       -0.98705,      -0.518287,      -0.036442,        49.5196,        49.9781,        50.4609,        50.9427,         48.052,        48.5326,        49.0013,        49.4832,
+          30000,              0,              0,        0.47655,       0.963066,        1.44242,       -1.47201,      -0.981443,      -0.500844,     -0.0186882,        49.5115,        49.9881,        50.4746,        50.9539,        48.0395,        48.5301,        49.0107,        49.4928,
+          30000,              0,              0,       0.478418,       0.954345,        1.45083,       -1.46765,      -0.980509,      -0.501779,     -0.0299012,        49.5299,        50.0083,        50.4842,        50.9807,        48.0622,        48.5494,        49.0281,           49.5,
